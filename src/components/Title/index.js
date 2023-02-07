@@ -6,7 +6,7 @@ import { Link } from 'wouter';
 
 function Title(props) {
     return <Link to="/">
-                <a>DAN STORE</a>
+                <a>DANIEL STORE</a>
             </Link>
 }
 
