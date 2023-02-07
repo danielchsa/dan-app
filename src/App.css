@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Varino';
+  src: url('./fonts/Varino\ -\ Normal.ttf');
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-content {
+  background-color: #FFFFFF;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  padding: 16px;
+  color: #333333;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.btn{
+  width: 200px;
+  height: 30px;
+  border-radius: 6px;
+  background: #4C76E2;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background: #6284DB;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

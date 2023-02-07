@@ -1,0 +1,32 @@
+.detail{
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+
+.product-info{
+    flex: 1 1 60%;
+    display: inline-block;
+    
+}
+
+
+.product-info p{
+    font-size: 16px;
+    text-align: justify;
+    padding: 0 20px;
+}
+
+.product-info span{
+   display: block;
+}
+
+.product-img{
+    flex: 1 1 40%;
+   
+   
+}

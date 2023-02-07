@@ -1,0 +1,18 @@
+.product{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   border-radius: 15px;
+   margin: 5px;
+   padding: 50px;
+   box-shadow: rgba(0,0,0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+ .product p{
+    font-size: 14px;
+ }
+
+ .product img{
+    width: 200px;
+    height: 200px
+ }

@@ -1,0 +1,35 @@
+.search-div {
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+.search-div form {
+    margin: auto;
+}
+
+.search-div div {
+    display: flex;
+    background-color: #ffff;
+    border-radius: 30px;
+    padding: 9px 22px 9px 26px;
+    border: 1px solid #b4bfca;
+
+}
+
+form input {
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 24px;
+    background: transparent;
+    background-image: url('../../images/search-icon.png');
+    background-size: 16px;
+    background-repeat: no-repeat;
+    width: 150px;
+    transition: all 1s;
+}
+
+form input:focus{
+    outline: none;
+    width: 220px;
+}
