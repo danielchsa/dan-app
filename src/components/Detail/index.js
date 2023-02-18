@@ -6,6 +6,7 @@ import { Details } from "./details";
 
 
 function ProductDetail({params}) {
+    window.scrollTo(0,0)
     const { id } = params
     const { products } = useContext(Context)
     const [localProduct, setLocalProduct] = useState()
