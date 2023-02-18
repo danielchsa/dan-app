@@ -5,6 +5,7 @@ import { getProductsByCategory } from "../../services/getProductByCategory";
 import { ProductList } from "../ProductList";
 
 function Results({params}) {
+    window.scrollTo(0,0)
     const {keyword} = params;
 
     const {products: productList, setProducts} = useContext(Context)
