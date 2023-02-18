@@ -23,7 +23,6 @@ function NavBar({}) {
                 ))
             }
         </nav>
-        <button>Login</button>
     </header> );
 }
 
