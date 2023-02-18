@@ -1,6 +1,40 @@
 .container {
     min-height: 300px;
-    margin-top: 50px;
+    margin-top: 100px;
     background-color: #252525;
-    opacity: 0.05;
+    color: #fff;
+    text-align: center;
 }
+
+.footer {
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+.footer-nav,
+.footer-nav ul {
+    padding: 0;
+}
+
+.footer li {
+    list-style: none;
+}
+
+.footer a {
+    display: block;
+    padding: 4px 0;
+}
+
+@media ( max-width: 768px){
+    .footer{
+       grid-template-columns: unset;
+       grid-template-rows: repeat(3, 1fr);
+    }
+
+}
+
