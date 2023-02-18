@@ -1,11 +1,9 @@
-import React, {useState, useRef } from "react";
-import { getProductsByCategory } from "../../services/getProductByCategory";
+import React, { useRef } from "react";
 
 import { useLocation } from "wouter";
 import './Search.css'
 
 function Search({}) {
-    const [keyword, setKeyword] = useState();
     const entry = useRef();
     const [path, to] = useLocation();
 
@@ -15,7 +13,8 @@ function Search({}) {
 
     const handleSumit = (e, values) =>{
         e.preventDefault();
-        to(`/category/${entry.current.value}`)
+        const keyword = (entry.current.value).toLowerCase()
+        to(`/category/${keyword}`)
     }
 
     return <section className='search-div'>
@@ -23,7 +22,6 @@ function Search({}) {
         <div>
             <input type='text' placeholder='Search for a product' onChange={handleChange} ref={entry}/>
         </div>
-        {/* <button type="submit">Search</button> */}
     </form>
     </section>
 }
