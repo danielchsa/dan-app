@@ -19,7 +19,7 @@
 }
 
 .App-content {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,20 +32,20 @@
   color: #61dafb;
 }
 
-.btn{
+.btn {
   width: 200px;
   height: 30px;
   border-radius: 6px;
-  background: #4C76E2;
+  background: #eb6598;
   border: none;
   font-weight: bold;
   font-size: 14px;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
 }
 
-.btn:hover{
-  background: #6284DB;
+.btn:hover {
+  background: #b82c62;
 }
 
 @keyframes App-logo-spin {
